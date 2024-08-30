@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #fe001a;
+    height: 20vh;
+}
+
+#menu{
+    float: right;
+    margin: 60px 200px;
+}
+
+#menu ol li {
+    display: inline;
+    font-size: 14pt;
+    color: aliceblue;
+}
+
+#menu ol li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 40px;
+}
+
+#menu ol li a:hover{
+    color: #fe001a;
+    background-color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 60px 30px;
+    margin: 10px;
+}
+
+#logotipo img {
+    height: 60px;
+    margin: 40px 200px;
+    float: left;
+}
+
+footer{
+    color: #fff;
+    background-color: #fe001a;
+    text-align: center;
+    height: 10vh;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer p b{
+    font-weight: bold;
+}
+
+#div-esq{
+    margin: 25px 0 0 200px;
+    float: left;
+}
+
+footer ol li {
+    display: inline;
+}
+
+footer ol {
+    margin: 0 0 0 600px ;
+}
+
+footer img{
+    width: 40px; 
+}
+
+footer ol li a:hover img{
+    background-color: black;
+}
