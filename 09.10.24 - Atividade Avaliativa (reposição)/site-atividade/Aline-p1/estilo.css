@@ -1,0 +1,126 @@
+div#layout {
+  margin: 0 auto;
+  width: 500px;
+  height: 700px;
+  background-color: #ffffff;
+  color: #272321;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+  padding: 20px 0 15px 0;
+}
+
+header nav ul {
+  display: flex;
+  font-weight: 600;
+}
+
+header nav ul li {
+  padding: 0 25px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+header h1 {
+  font-size: 19pt;
+  font-weight: 600;
+  padding: 10px 15px;
+}
+h1 a {
+  color: #c31309;
+  text-decoration: none;
+}
+
+#gshow {
+  color: #d15600;
+}
+
+#ge {
+  color: #07910f;
+}
+
+#g1 {
+  color: #e71203;
+}
+
+#globoplay {
+  color: #f27166;
+}
+
+#primeiras_chamadas ul {
+  list-style-type: disc;
+  color: #c31309;
+  border-bottom: #edeff1;
+}
+ul li a {
+  text-decoration: none;
+  padding-left: 0px;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 15pt;
+  color: white;
+  font-weight: 600;
+}
+
+h2 a {
+  color: #c4170c;
+}
+
+#texto-imagem {
+  color: white;
+  background-color: #c4170c;
+}
+figcaption {
+  caption-side: bottom;
+}
+
+h3 {
+  font-size: 12pt;
+  padding: 5px 0px;
+}
+
+ul li h3 a {
+  color: #272321;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+
+#primeiras_chamadas {
+  padding: 0 0 20px 0;
+}
+
+#furacao ul li {
+  list-style: inside;
+}
+
+#furacao {
+  list-style-type: disc;
+  color: #c31309;
+}
+
+#meteorologia {
+  display: flex;
+}
+#metreologia ul {
+  list-style-type: disc;
+  color: #c31309;
+}
+
+.imagem_espacial,
+.texto {
+  display: inline-block;
+}
+
+.imagem_arredondada {
+  border-radius: 20px;
+}
+
+.texto {
+  text-align: justify;
+  flex: 1; /* Ocupa o restante do espaço disponível */
+}

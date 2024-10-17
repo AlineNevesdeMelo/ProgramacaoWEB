@@ -1,0 +1,10 @@
+/* Criando um Efeito de Acordeão */
+.accordion-item:target ~ .accordion-item .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .accordion-item:target {
+    background-color: #f0f0f0;
+  }
